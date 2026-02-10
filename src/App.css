@@ -30,15 +30,18 @@ body {
   font-size: 4rem;
   font-weight: 700;
   background: linear-gradient(90deg, #ff3b3b, #ff7b00);
- 
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+    margin: 0;           /* remove default margin */
+  margin-bottom: 5px;  /* small space to paragraph */
 }
 
 .header p {
-  color: #b3b3b3;
+  color: #ffffff;
   max-width: 750px;
-  margin: 25px auto 0 auto;
+   margin: 0 auto; 
   font-size: 1.1rem;
+  
 }
 
 /* Section Titles */
